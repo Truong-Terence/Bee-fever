@@ -1,0 +1,45 @@
+.btn {
+  height: 1.5em;
+  width: 1.5em;
+  text-align: center;
+  justify-content: center;
+  margin: 3px auto;
+}
+
+.btn-bee {
+  display: inline-block;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+  left: 50%;
+  border-radius: 50%;
+  background-color: #FC0;
+}
+
+.btn-bee:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+.fa-bug {
+  color: black;
+}
+
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

@@ -1,0 +1,60 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../images/face_drink_bee.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+  height: 15em;
+  width: 15em;
+  margin: 1em auto;
+  padding: .5em 0;
+}
+
+.card:hover {
+  opacity: .8;
+}
+
+.around-card-p {
+  background-color: black;
+  opacity: .5;
+  height: 2em;
+  width: 100%;
+}
+.card p {
+  color: white;
+  border: solid transparent 1px;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+#card-1 {
+  background-image: url("../../images/air_bee.jpg");
+}
+
+#card-2 {
+  background-image: url("../../images/big_bee.jpg");
+}
+
+#card-3 {
+  background-image: url("../../images/drink_bee.jpg");
+}
+
+#card-4 {
+  background-image: url("../../images/pnk_bee.jpg");
+}
+
+#card-5 {
+  background-image: url("../../images/purple_bee.jpg");
+}
+
+#card-6 {
+  background-image: url("../../images/yellow_bee.jpg");
+}
