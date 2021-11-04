@@ -79,7 +79,7 @@ li {
 }
 
 li:hover{
-  animation: grow 2000ms cubic-bezier(.36,.07,.19,.97) both;
+  animation: grow 1000ms cubic-bezier(.36,.07,.19,.97) both;
   transform: scale(1);
 }
 
@@ -98,20 +98,80 @@ footer a {
 }
 
 @keyframes grow {
+  5% {
+    transform: scale(.9);
+  }
+
+  10% {
+    transform: scale(.8);
+  }
+
+  15% {
+    transform: scale(.9);
+  }
+
   20% {
+    transform: scale(.8);
+  }
+
+  25% {
     transform: scale(.7);
   }
 
+  30% {
+    transform: scale(.6);
+  }
+
+  35% {
+    transform: scale(.5);
+  }
+
   40% {
-    transform: scale(.4);
+    transform: scale(.6);
+  }
+
+  45% {
+    transform: scale(.7);
+  }
+
+  50% {
+    transform: scale(.8);
+  }
+
+  55% {
+    transform: scale(.9);
   }
 
   60% {
     transform: scale(.8);
   }
 
+  65% {
+    transform: scale(.7);
+  }
+
+  70% {
+    transform: scale(.6);
+  }
+
+  75% {
+    transform: scale(.5);
+  }
+
   80% {
     transform: scale(.6);
+  }
+
+  85% {
+    transform: scale(.7);
+  }
+
+  90% {
+    transform: scale(.8);
+  }
+
+  95% {
+    transform: scale(.9);
   }
 
   100% {
